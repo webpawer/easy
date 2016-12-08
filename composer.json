@@ -1,0 +1,31 @@
+{
+    "name": "webpawer/eins",
+    "version":"dev-master",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "webpawer",
+            "email": "ara-ara@yandex.ru"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "smarty/smarty": "^3.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Plagin\\": "plagin/",
+            "Haks\\": "haks/"
+        },
+        "files": [
+            "app/func.php"
+        ],
+        "classmap": [
+            "app/classes/"
+        ]
+    }
+
+}
