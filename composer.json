@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-      
+
     },
     "require-dev": {
         "smarty/smarty": "^3.1"
